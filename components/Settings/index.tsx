@@ -31,7 +31,9 @@ const Settings = () => {
             VENCRU
           </h1>
         </div>
-        <Hamburger />
+        <div onClick={() => alert("Coming soon")}>
+          <Hamburger />
+        </div>
       </div>
       <section className="mx-5 lg:ml-6">
         <span className="font-medium text-2xl lg:text-3xl ">Settings</span>

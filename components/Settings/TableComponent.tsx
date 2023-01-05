@@ -126,7 +126,7 @@ const TableComponent = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-4 py-4 border-b border-gray-200 bg-white text-sm">
                     <div className="flex">
                       <div className="flex-shrink-0 pl-1">
                         <input type={"checkbox"} className="largerCheckbox " />
@@ -188,7 +188,7 @@ const TableComponent = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-4 py-4 border-b border-gray-200 bg-white text-sm">
                     <div className="flex">
                       <div className="flex-shrink-0 pl-1">
                         <input type={"checkbox"} className="largerCheckbox " />
@@ -250,7 +250,7 @@ const TableComponent = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-4 py-4 bg-white text-sm">
                     <div className="flex">
                       <div className="flex-shrink-0 pl-1">
                         <input type={"checkbox"} className="largerCheckbox " />
