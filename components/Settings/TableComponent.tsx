@@ -51,7 +51,7 @@ const TableComponent = () => {
                   <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-10 text-left text-xs font-semibold  text-gray-20 tracking-wider">
                     Amount
                   </th>
-                  <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-10 text-left text-xs font-semibold text-gray-20  tracking-wider">
+                  <th className="px-5 py-3 border-b-2 date border-gray-200 bg-gray-10 text-left text-xs font-semibold text-gray-20  tracking-wider">
                     Date
                   </th>
                   <th className="px-5 py-3 border-b-2 users border-gray-200 bg-gray-10 text-left text-xs font-semibold text-gray-20  tracking-wider">
@@ -82,7 +82,7 @@ const TableComponent = () => {
                       <p>$12,000</p>
                     </div>
                   </td>
-                  <td className="px-4 py-4  border-b border-gray-200 bg-white text-sm">
+                  <td className="px-4 py-4  border-b border-gray-200 bg-white text-sm date">
                     <p className="text-gray-20 whitespace-no-wrap">
                       Dec 1, 2022
                     </p>
@@ -144,7 +144,7 @@ const TableComponent = () => {
                       <p>$12,000</p>
                     </div>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm date">
                     <p className="text-gray-20 whitespace-no-wrap">
                       Dec 1, 2022
                     </p>
@@ -206,7 +206,7 @@ const TableComponent = () => {
                       <p>$12,000</p>
                     </div>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm date">
                     <p className="text-gray-20 whitespace-no-wrap">
                       Dec 1, 2022
                     </p>
@@ -268,7 +268,7 @@ const TableComponent = () => {
                       <p>$12,000</p>
                     </div>
                   </td>
-                  <td className="px-5 py-5 bg-white text-sm">
+                  <td className="px-5 py-5 bg-white text-sm date">
                     <p className="text-gray-20 whitespace-no-wrap">
                       Dec 1, 2022
                     </p>

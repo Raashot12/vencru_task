@@ -129,11 +129,17 @@ color: #344054;
   cursor: pointer;
 }
 /*Media  Queries */
+@media only screen and (max-width: 567px) {
+  .date {
+    display: none;
+  }
+}
 @media only screen and (min-width: 769px) {
   .header {
     display: none;
   }
 }
+
 @media only screen and (max-width: 1048px) {
   .download {
     display: none;
