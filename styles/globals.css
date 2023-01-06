@@ -110,23 +110,47 @@ main {
   border: 1px solid #eaecf0;
   border-radius: 8px;
 }
-.btn{
-background: #FFFFFF;
-border: 1px solid #D0D5DD;
-box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
-padding: 10px 16px;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-color: #344054;
+.btn {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
 }
-.largerCheckbox{
+.largerCheckbox {
   height: 20px;
   width: 20px;
   border-radius: 10px;
   cursor: pointer;
+}
+.menubar-background {
+  width: 0;
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  z-index: 13;
+  opacity: 1;
+  top: 0;
+  overflow: hidden;
+  transition: 1100ms;
+}
+.menubar-backgroundactive {
+  background: white;
+  width: 100%;
+  padding-right: 20px;
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  opacity: 1;
+  z-index: 990;
+  top: 0;
+  overflow: hidden;
+  transition: 1100ms;
 }
 /*Media  Queries */
 @media only screen and (max-width: 567px) {
@@ -144,7 +168,7 @@ color: #344054;
   .download {
     display: none;
   }
-  .users{
+  .users {
     display: none;
   }
 }
@@ -171,7 +195,6 @@ color: #344054;
     justify-content: space-between;
     margin-bottom: 32px;
   }
-
 }
 @media only screen and (max-width: 567px) {
   .contact-title {

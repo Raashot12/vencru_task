@@ -10,6 +10,7 @@ import UnChecked from "../../utilities/UnChecked"
 import MastCardIcon from "../../utilities/MastCardIcon"
 import IconPlus from "../../utilities/IconPlus"
 import TableComponent from "./TableComponent"
+import MenuBar from "../MenuBar"
 
 const settingTags = [
   "My details",
@@ -22,6 +23,13 @@ const settingTags = [
   "API",
 ]
 const Settings = () => {
+  const [menuBar, setMenuBar] = React.useState(true)
+  const showMenuBar = () => {
+    setMenuBar(prevState => {
+      const state = !prevState
+      return state
+    })
+  }
   return (
     <div>
       <div className="header">
@@ -31,7 +39,7 @@ const Settings = () => {
             VENCRU
           </h1>
         </div>
-        <div onClick={() => alert("Coming soon")}>
+        <div onClick={showMenuBar}>
           <Hamburger />
         </div>
       </div>
@@ -162,6 +170,7 @@ const Settings = () => {
         </section>
       </div>
       <TableComponent />
+      <MenuBar menuBar={menuBar} showMenuBar={showMenuBar} />
     </div>
   )
 }
